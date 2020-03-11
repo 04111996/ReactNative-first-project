@@ -51,13 +51,13 @@ renderItem=(data)=>
 <Text style={styles.lightText}>{data.item.username}</Text>
 <Text style={styles.lightText}>{data.item.address.street}</Text>
 <Text style={styles.lightText}>{data.item.address.suite}</Text>
-{/* <Text style={styles.lightText}>{data.item.address.suite}</Text> */}
-{/* <Text style={styles.lightText}>{data.item.address.geo.lat}</Text> */}
+<Text style={styles.lightText}>{data.item.address.suite}</Text>
+ <Text style={styles.lightText}>{data.item.address.geo.lat}</Text>
 
 
 
 <Text style={styles.lightText}>{data.item.email}</Text>
-{/* <Text style={styles.lightText}>{data.item.company.name}</Text> */}
+<Text style={styles.lightText}>{data.item.company.name}</Text>
 <Text style={styles.lightText}>{data.item.company.catchPhrase}</Text></TouchableOpacity>
 render(){
  if(this.state.loading){
