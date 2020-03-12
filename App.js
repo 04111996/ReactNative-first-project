@@ -49,10 +49,10 @@ renderItem=(data)=>
 <TouchableOpacity style={styles.list}>
 <Text style={styles.lightText}>{data.item.name}</Text>
 <Text style={styles.lightText}>{data.item.username}</Text>
-<Text style={styles.lightText}>{data.item.address.street}</Text>
+{/* <Text style={styles.lightText}>{data.item.address.street}</Text>
 <Text style={styles.lightText}>{data.item.address.suite}</Text>
 <Text style={styles.lightText}>{data.item.address.suite}</Text>
- <Text style={styles.lightText}>{data.item.address.geo.lat}</Text>
+ <Text style={styles.lightText}>{data.item.address.geo.lat}</Text> */}
 
 
 
