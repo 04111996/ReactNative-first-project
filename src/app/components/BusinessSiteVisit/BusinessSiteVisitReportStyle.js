@@ -9,9 +9,9 @@ const height = Dimensions.get('window').height;
 export default StyleSheet.create({
     gstnContainer: {
     ...ApplicationStyles.screen.container,
-    display: 'flex',
+    display: 'flex', 
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'center', 
     backgroundColor: Colors.white,
   },
   nextRelContainer: {

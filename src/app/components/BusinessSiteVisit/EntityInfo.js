@@ -9,7 +9,7 @@ import {
   StatusBar,
   Alert,
   Button,
-  Image,
+  Image,  
   TouchableOpacity,
   ActivityIndicator,Picker
 } from 'react-native';

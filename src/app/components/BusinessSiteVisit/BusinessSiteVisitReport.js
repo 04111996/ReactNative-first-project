@@ -7,9 +7,9 @@ import {
   View,
   Text,
   StatusBar,
-  Alert,
+  Alert, 
   Button,
-  Image,
+  Image, 
   TouchableOpacity,
   ActivityIndicator
 } from 'react-native';

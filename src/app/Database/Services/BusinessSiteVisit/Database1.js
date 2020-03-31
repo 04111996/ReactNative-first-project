@@ -10,7 +10,7 @@ const database_size = 200000;
 export default class Database1 {
 
   initDB() {
-    let db;
+    let db; 
     return new Promise((resolve) => {
       console.log("Plugin integrity check ...");
       SQLite.echoTest()

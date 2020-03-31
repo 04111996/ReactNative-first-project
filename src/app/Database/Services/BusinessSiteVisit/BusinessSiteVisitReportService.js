@@ -10,7 +10,7 @@ export default class BusinessSiteVisitReportService {
             db.close()  
               .then(status => {  
                 console.log('Database CLOSED');
-                resolve(status)
+                resolve(status) 
               })
               .catch(error => {
                 //this.errorCB(error);

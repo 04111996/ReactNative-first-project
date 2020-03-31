@@ -7,7 +7,7 @@ import {
   View,
   Text,
   StatusBar,
-  Alert,
+  Alert, 
   Button,
   Image,
   TouchableOpacity,

@@ -12,7 +12,7 @@ const db = new Database1();
     return {  
       title: 'Product List',
       headerRight: (
-        <Button
+        <Button 
            
           icon={{ name: 'add-circle' }}
           onPress={() => { 

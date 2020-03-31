@@ -172,7 +172,7 @@ export default class AddressVerification extends Component {
                     fontWeight: 'bold',
                     fontSize: 20,
                     fontFamily: 'Helvetica',}}  
-
+ 
                       label="Details of Registered Address"
                       maxLength={CHAR_LIMIT_FOR_NAME_FIELD} 
                       // value={this.state.numberOfMonthsInActiveBusiness}

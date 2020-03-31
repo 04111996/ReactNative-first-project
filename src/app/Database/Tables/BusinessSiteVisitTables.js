@@ -13,7 +13,7 @@ export const BusinessSiteVisitTables  = tx => {
         "sourceOfLead varchar(255),"+
         "customerName varchar(255),"+
         "companyNameAbbreviated varchar(255),"+
-        "dateOfIncorporation DATE," +
+        "dateOfIncorporation DATE," + 
         "newlyIncorporated varchar(255),"+
         "numberOfMonthsInActiveBusiness INTEGER,"+
         "natureOfBusiness varchar(255),"+

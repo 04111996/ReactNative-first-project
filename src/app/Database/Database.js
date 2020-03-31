@@ -11,7 +11,7 @@ let dbconnection;
 export default class Database {
        
   
-    initDB() {
+    initDB() { 
         let db;
         return new Promise((resolve) => {
             console.log("Plugin integrity check ...");

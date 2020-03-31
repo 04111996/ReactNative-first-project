@@ -13,7 +13,7 @@ export default class ProductAddScreen extends Component {
     super();
     this.state = {
       prodId: '',  
-      prodName: '',
+      prodName: '', 
       prodDesc: '',
       prodImage: '',
       prodPrice: '0',

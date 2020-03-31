@@ -5,7 +5,7 @@ import {
   Animated,  
   Easing,  
   Platform
-} from 'react-native'
+} from 'react-native' 
 import { createDocumentSidebarNavigator } from '../tabs';
 import {Documents,Legal,SanctionLetter,Technical} from '../components/Documentation';
 import {BusinessSiteVisitReport} from '../components/BusinessSiteVisit'

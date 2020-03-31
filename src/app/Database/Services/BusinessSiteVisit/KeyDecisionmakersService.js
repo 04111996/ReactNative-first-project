@@ -8,7 +8,7 @@ export default class KeyDecisionmakersService {
         console.log('Closing DB');
 
         db.close()
-          .then(status => {
+          .then(status => { 
             console.log('Database CLOSED');
             resolve(status);
           })

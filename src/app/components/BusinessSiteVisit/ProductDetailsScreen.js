@@ -10,7 +10,7 @@ export default class ProductDetailsScreen extends Component {
     title: 'Product Details',
   }
 
-  constructor() {
+  constructor() { 
     super();
     this.state = {    
       isLoading: true,

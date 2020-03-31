@@ -12,7 +12,7 @@ export default class SwitchComponent extends React.Component {
       this.setState({switchValue: value})
       //state changes according to switch
       //which will result in re-render th  e text
-   }  
+   }   
   render() {  
     return (
       <View style={styles.container}>
