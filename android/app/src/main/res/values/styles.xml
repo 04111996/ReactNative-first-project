@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#000000</item>
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+        <!-- <item name="android:spinnerItemStyle">@style/SpinnerItem</item>  -->
+    </style>
+
+    <style name="SpinnerItem" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#58595B</item>
+         <item name="android:textSize">14sp</item>
+         <item name="android:textStyle">bold</item>
+         <item name="android:fontFamily">Helvetica</item>
+    </style>
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker" >
+            <item name="android:headerBackground">#9d1d28</item>
+            <item name="android:dayOfWeekBackground">#9d1d28</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="80" viewBox="0 0 83 80">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="22.069" height="80" fill="#DCDDDE" rx="2"/>
+        <rect width="11.034" height="24.828" x="5.517" y="8.276" fill="#9D1C28" rx="1"/>
+        <rect width="16.552" height="2.759" x="2.759" y="41.379" fill="#676767" rx="1.379"/>
+        <rect width="16.552" height="2.759" x="2.759" y="46.897" fill="#676767" rx="1.379"/>
+        <rect width="16.552" height="2.759" x="2.759" y="52.414" fill="#676767" rx="1.379"/>
+        <circle cx="11.034" cy="68.966" r="5.517" fill="#58595B"/>
+        <g transform="translate(30.345)">
+            <rect width="22.069" height="80" fill="#C7C8CA" rx="2"/>
+            <rect width="11.034" height="24.828" x="5.517" y="8.276" fill="#9D1C28" rx="1"/>
+            <rect width="16.552" height="2.759" x="2.759" y="41.379" fill="#676767" rx="1.379"/>
+            <rect width="16.552" height="2.759" x="2.759" y="46.897" fill="#676767" rx="1.379"/>
+            <rect width="16.552" height="2.759" x="2.759" y="52.414" fill="#676767" rx="1.379"/>
+            <circle cx="11.034" cy="68.966" r="5.517" fill="#58595B"/>
+        </g>
+        <rect width="22.069" height="80" x="60.69" fill="#DCDDDE" rx="2"/>
+        <rect width="11.034" height="24.828" x="66.207" y="8.276" fill="#9D1C28" rx="1"/>
+        <rect width="16.552" height="2.759" x="63.448" y="41.379" fill="#676767" rx="1.379"/>
+        <rect width="16.552" height="2.759" x="63.448" y="46.897" fill="#676767" rx="1.379"/>
+        <rect width="16.552" height="2.759" x="63.448" y="52.414" fill="#676767" rx="1.379"/>
+        <circle cx="71.724" cy="68.966" r="5.517" fill="#58595B"/>
+    </g>
+</svg>

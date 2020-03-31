@@ -1,0 +1,1769 @@
+{
+    "configuration": {
+      "loanPrograms": [
+        {
+          "programId": "abc",
+          "loanLowerLimit": 0,
+          "loanUpperLimit": 1000000000,
+          "name": "GSTOD",
+          "sanctionTime": "60 mins",
+          "info": "In < 60 mins, get direct sanction of upto INR 1 cr based on submission of GST, ITR and Banking",
+          "requirementListHeader": "For Sanction in <60 mins, ensure that the customer keeps the following information ready",
+          "Documents": [
+            {
+              "document": "PAN and Address",
+              "documentDisplayName": "PAN Number and Address of the Applicant, all Guarantors and Group entities"
+            },
+            {
+              "document": "6 months Bank Statement",
+              "documentDisplayName": "Last 6M Bank Statements of all working capital limits and all major current accounts (in e-PDF format)"
+            },
+            {
+              "document": "GST details",
+              "documentDisplayName": "GST Username and Registered Mobile Number to receive an OTP  / GST registration Certificate along with last 12 months GSTR 3B acknowledgment"
+            },
+            {
+              "document": "1 year ITR Details",
+              "documentDisplayName": "Income Tax Returns Password / Income Tax Return of Borrower along with Computation of Income for last 1 Year for company and guarantors"
+            },
+            {
+              "document": "Proof of vintage",
+              "documentDisplayName": "Proof of vintage establishing date of incorporation (e.g. Shops and Establishments Act certificate)"
+            },
+            {
+              "document": "Proof of Address",
+              "documentDisplayName": "Proof of address establishing current business address"
+            }
+          ],
+          "DocumentCards": [
+            {
+              "displayName": "Case Details"
+            },
+            {
+              "displayName": "KYC & Bureau Check"
+            },
+            {
+              "displayName": "Bank Statements"
+            },
+            {
+              "displayName": "GSTN"
+            },
+            {
+              "displayName": "ITR"
+            },
+            {
+              "displayName": "Financials"
+            },
+            {
+              "displayName": "Vintage  Proof"
+            },
+            {
+              "displayName": "Additional Questions"
+            },
+            {
+              "displayName": "QCA"
+            }
+          ]
+        },
+        {
+          "programId": "efg",
+          "loanLowerLimit": 0,
+          "loanUpperLimit": 1500000000,
+          "name": "TURBOOD",
+          "sanctionTime": "12 hrs",
+          "info": "In < 12 hrs, get sanction of upto INR 1.5 cr based on submission of 1Y Financials, GST, ITR and Banking",
+          "requirementListHeader": "For Sanction in <12 Hours, ensure that the customer keeps the following information ready",
+          "Documents": [
+            {
+              "document": "PAN and Address",
+              "documentDisplayName": "PAN Number and Address of the Applicant, all Guarantors and Group entities"
+            },
+            {
+              "document": "12 months Bank Statement",
+              "documentDisplayName": "Last 12M Bank Statements of all working capital limits and all major current accounts (in e-PDF format)"
+            },
+            {
+              "document": "GST details",
+              "documentDisplayName": "GST Username and Registered Mobile Number to receive an OTP  / GST registration Certificate along with last 12 months GSTR 3B acknowledgment"
+            },
+            {
+              "document": "1 year ITR Details",
+              "documentDisplayName": "Income Tax Returns Password / Income Tax Return of Borrower along with Computation of Income for last 1 Year for company and guarantors"
+            },
+            {
+              "document": "Proof of vintage",
+              "documentDisplayName": "Proof of vintage establishing date of incorporation (e.g. Shops and Establishments Act certificate)"
+            },
+            {
+              "document": "Proof of Address",
+              "documentDisplayName": "Proof of address establishing current business address"
+            },
+            {
+              "document": "1 year Audited Financials",
+              "documentDisplayName": "Last Audited Financials including P&L, Balance Sheet and all schedules"
+            },
+            {
+              "document": "Declaration of Debtors",
+              "documentDisplayName": "Declaration of key debtors along with their ageing cycles"
+            }
+          ],
+          "DocumentCards": [
+            {
+              "displayName": "Case Details"
+            },
+            {
+              "displayName": "KYC & Bureau Check"
+            },
+            {
+              "displayName": "Bank Statements"
+            }
+          ]
+        },
+        {
+          "programId": "pqr",
+          "loanLowerLimit": 0,
+          "loanUpperLimit": 2500000000,
+          "name": "RAPIDOD",
+          "sanctionTime": "12 hrs",
+          "info": "In < 12 hrs, get sanction of upto INR 2.5 cr based on submission of 2Y Financials, GST, ITR and Banking",
+          "requirementListHeader": "For Sanction in <24 Hours, ensure that the customer keeps the following information ready",
+          "Documents": [
+            {
+              "document": "PAN and Address",
+              "documentDisplayName": "PAN Number and Address of the Applicant, all Guarantors and Group entities"
+            },
+            {
+              "document": "12 months Bank Statement",
+              "documentDisplayName": "Last 12M Bank Statements of all working capital limits and all major current accounts (in e-PDF format)"
+            },
+            {
+              "document": "GST details",
+              "documentDisplayName": "GST Username and Registered Mobile Number to receive an OTP  / GST registration Certificate along with last 12 months GSTR 3B acknowledgment"
+            },
+            {
+              "document": "Proof of vintage",
+              "documentDisplayName": "Proof of vintage establishing date of incorporation (e.g. Shops and Establishments Act certificate)"
+            },
+            {
+              "document": "Proof of Address",
+              "documentDisplayName": "Proof of address establishing current business address"
+            },
+            {
+              "document": "Declaration of Debtors",
+              "documentDisplayName": "Declaration of key debtors along with their ageing cycles"
+            },
+            {
+              "document": "2 years Audited Financials",
+              "documentDisplayName": "Last 2 Year Audited Financials including P&L, Balance Sheet and all schedules"
+            },
+            {
+              "document": "Latest projections",
+              "documentDisplayName": "Latest projections of financials including understanding of key assumptions"
+            },
+            {
+              "document": "2 years ITR Details",
+              "documentDisplayName": "Income Tax Returns Password / Income Tax Return of Borrower along with Computation of Income for last 2 Year for applicant and guarantors"
+            }
+          ],
+          "DocumentCards": []
+        },
+        {
+          "programId": "xyz",
+          "loanLowerLimit": 2500000000,
+          "loanUpperLimit": 5000000000,
+          "name": "ENTERPRISE",
+          "sanctionTime": "seamless",
+          "info": "For limit requirement in the range of INR 2.5 cr - INR 5 cr",
+          "requirementListHeader": "For seamless loan processing, ensure that the customer keeps the following information ready",
+          "Documents": [
+            {
+              "document": "PAN and Address",
+              "documentDisplayName": "PAN Number and Address of the Applicant, all Guarantors and Group entities"
+            },
+            {
+              "document": "12 months Bank Statement",
+              "documentDisplayName": "Last 12M Bank Statements of all working capital limits and all major current accounts (in e-PDF format)"
+            },
+            {
+              "document": "GST details",
+              "documentDisplayName": "GST Username and Registered Mobile Number to receive an OTP  / GST registration Certificate along with last 12 months GSTR 3B acknowledgment"
+            },
+            {
+              "document": "Proof of vintage",
+              "documentDisplayName": "Proof of vintage establishing date of incorporation (e.g. Shops and Establishments Act certificate)"
+            },
+            {
+              "document": "Proof of Address",
+              "documentDisplayName": "Proof of address establishing current business address"
+            },
+            {
+              "document": "Latest projections",
+              "documentDisplayName": "Latest projections of financials including understanding of key assumptions"
+            },
+            {
+              "document": "3 years ITR Details",
+              "documentDisplayName": "Income Tax Returns Password / Income Tax Return of Borrower along with Computation of Income for last 3 Year for applicant and guarantors"
+            },
+            {
+              "document": "6 months Stock Statements",
+              "documentDisplayName": "Stock statement for the last 6 month"
+            },
+            {
+              "document": "List of Debtors",
+              "documentDisplayName": "List of Debtors and their value (Latest available and last Financial Year)"
+            }
+          ],
+          "DocumentCards": []
+        }
+      ],
+      "industries": [
+        {
+          "industryCode": "0047",
+          "industryDescription": "Iron & Steel"
+        },
+        {
+          "industryCode": "0048",
+          "industryDescription": "SEP (Doc, CA, Architect/Lawyer"
+        },
+        {
+          "industryCode": "0049",
+          "industryDescription": "SEP (Entertainment/Alternate M"
+        },
+        {
+          "industryCode": "0050",
+          "industryDescription": "Agricultural Commodities"
+        },
+        {
+          "industryCode": "0051",
+          "industryDescription": "Petrol Pump"
+        },
+        {
+          "industryCode": "0052",
+          "industryDescription": "FMCG"
+        },
+        {
+          "industryCode": "0053",
+          "industryDescription": "Business correspondent"
+        },
+        {
+          "industryCode": "0054",
+          "industryDescription": "Cables"
+        },
+        {
+          "industryCode": "0055",
+          "industryDescription": "Engineering"
+        },
+        {
+          "industryCode": "0056",
+          "industryDescription": "Healthcare"
+        },
+        {
+          "industryCode": "0057",
+          "industryDescription": "Leather"
+        },
+        {
+          "industryCode": "0058",
+          "industryDescription": "Metals"
+        },
+        {
+          "industryCode": "0059",
+          "industryDescription": "Power"
+        },
+        {
+          "industryCode": "0060",
+          "industryDescription": "Retail"
+        },
+        {
+          "industryCode": "0061",
+          "industryDescription": "Shipping"
+        },
+        {
+          "industryCode": "0062",
+          "industryDescription": "Tobacco"
+        },
+        {
+          "industryCode": "0063",
+          "industryDescription": "others"
+        },
+        {
+          "industryCode": "0064",
+          "industryDescription": "School"
+        },
+        {
+          "industryCode": "0065",
+          "industryDescription": "College"
+        },
+        {
+          "industryCode": "0066",
+          "industryDescription": "University"
+        },
+        {
+          "industryCode": "0067",
+          "industryDescription": "National Institutes"
+        },
+        {
+          "industryCode": "0068",
+          "industryDescription": "Hospital"
+        },
+        {
+          "industryCode": "0069",
+          "industryDescription": "Research Centre"
+        },
+        {
+          "industryCode": "0070",
+          "industryDescription": "CSR Foundations"
+        },
+        {
+          "industryCode": "0071",
+          "industryDescription": "Temple"
+        },
+        {
+          "industryCode": "0072",
+          "industryDescription": "Church"
+        },
+        {
+          "industryCode": "0073",
+          "industryDescription": "Mosque / Dargah"
+        },
+        {
+          "industryCode": "0074",
+          "industryDescription": "Gurudwara"
+        },
+        {
+          "industryCode": "0075",
+          "industryDescription": "Endowment Board"
+        },
+        {
+          "industryCode": "0076",
+          "industryDescription": "Wakf Board"
+        },
+        {
+          "industryCode": "0077",
+          "industryDescription": "Diocese"
+        },
+        {
+          "industryCode": "0078",
+          "industryDescription": "SGPC"
+        },
+        {
+          "industryCode": "0079",
+          "industryDescription": "Sports Club"
+        },
+        {
+          "industryCode": "0080",
+          "industryDescription": "Private Club"
+        },
+        {
+          "industryCode": "0081",
+          "industryDescription": "Gymkhana"
+        },
+        {
+          "industryCode": "0082",
+          "industryDescription": "Family Trust"
+        },
+        {
+          "industryCode": "0083",
+          "industryDescription": "PF"
+        },
+        {
+          "industryCode": "0084",
+          "industryDescription": "Gratuity / Superannuation"
+        },
+        {
+          "industryCode": "0085",
+          "industryDescription": "Pension Fund Trust"
+        },
+        {
+          "industryCode": "0086",
+          "industryDescription": "ESOP Trust"
+        },
+        {
+          "industryCode": "0087",
+          "industryDescription": "Gram Panchayat"
+        },
+        {
+          "industryCode": "0088",
+          "industryDescription": "Municipal Corporation / Munici"
+        },
+        {
+          "industryCode": "0089",
+          "industryDescription": "Office of BDO / DDO"
+        },
+        {
+          "industryCode": "0090",
+          "industryDescription": "Municipality / Municipal Counc"
+        },
+        {
+          "industryCode": "0091",
+          "industryDescription": "Education"
+        },
+        {
+          "industryCode": "0092",
+          "industryDescription": "Contractor"
+        },
+        {
+          "industryCode": "0093",
+          "industryDescription": "Consultant"
+        },
+        {
+          "industryCode": "0001",
+          "industryDescription": "Advertising/Media / Entertainm"
+        },
+        {
+          "industryCode": "0002",
+          "industryDescription": "Agriculture"
+        },
+        {
+          "industryCode": "0003",
+          "industryDescription": "Airlines"
+        },
+        {
+          "industryCode": "0004",
+          "industryDescription": "Arms/Antique/Art Dealer"
+        },
+        {
+          "industryCode": "0005",
+          "industryDescription": "Auto Finance Co"
+        },
+        {
+          "industryCode": "0006",
+          "industryDescription": "Automobile"
+        },
+        {
+          "industryCode": "0007",
+          "industryDescription": "Bar/Casino/Night club"
+        },
+        {
+          "industryCode": "0008",
+          "industryDescription": "bullion"
+        },
+        {
+          "industryCode": "0009",
+          "industryDescription": "Cement"
+        },
+        {
+          "industryCode": "0010",
+          "industryDescription": "Government Contractors/Contrac"
+        },
+        {
+          "industryCode": "0011",
+          "industryDescription": "Chemicals/Dyes/Paints"
+        },
+        {
+          "industryCode": "0012",
+          "industryDescription": "Consultancy"
+        },
+        {
+          "industryCode": "0013",
+          "industryDescription": "Consumer Durables"
+        },
+        {
+          "industryCode": "0014",
+          "industryDescription": "Courier/ Freight Forwarders"
+        },
+        {
+          "industryCode": "0015",
+          "industryDescription": "Dairy/Food Processing"
+        },
+        {
+          "industryCode": "0016",
+          "industryDescription": "Store - Retail outlet (Bakery/"
+        },
+        {
+          "industryCode": "0017",
+          "industryDescription": "Education Institutes/school/co"
+        },
+        {
+          "industryCode": "0018",
+          "industryDescription": "Electronics/Comput"
+        },
+        {
+          "industryCode": "0019",
+          "industryDescription": "Engineering goods"
+        },
+        {
+          "industryCode": "0020",
+          "industryDescription": "Exchange house"
+        },
+        {
+          "industryCode": "0021",
+          "industryDescription": "Fertilizers/Seeds/Pesticides"
+        },
+        {
+          "industryCode": "0022",
+          "industryDescription": "Fishery/Poultry"
+        },
+        {
+          "industryCode": "0023",
+          "industryDescription": "Furniture/Timber"
+        },
+        {
+          "industryCode": "0024",
+          "industryDescription": "Gems & Jewellery"
+        },
+        {
+          "industryCode": "0025",
+          "industryDescription": "Health Club/Spa"
+        },
+        {
+          "industryCode": "0026",
+          "industryDescription": "Nursing home/clinic /Life scie"
+        },
+        {
+          "industryCode": "0027",
+          "industryDescription": "Hotel/Resort"
+        },
+        {
+          "industryCode": "0028",
+          "industryDescription": "Housing Finance Co"
+        },
+        {
+          "industryCode": "0029",
+          "industryDescription": "Insurance Co"
+        },
+        {
+          "industryCode": "0030",
+          "industryDescription": "IT/Software/BPO/IT"
+        },
+        {
+          "industryCode": "0031",
+          "industryDescription": "Liquor Distributor"
+        },
+        {
+          "industryCode": "0032",
+          "industryDescription": "Marble/Granite"
+        },
+        {
+          "industryCode": "0033",
+          "industryDescription": "Other pvt financial corp"
+        },
+        {
+          "industryCode": "0034",
+          "industryDescription": "Petroleum Oil & Gas"
+        },
+        {
+          "industryCode": "0035",
+          "industryDescription": "Pharmaceuticals / Chemists"
+        },
+        {
+          "industryCode": "0036",
+          "industryDescription": "Plastic/Paper & Allied product"
+        },
+        {
+          "industryCode": "0037",
+          "industryDescription": "Printing/Publishing"
+        },
+        {
+          "industryCode": "0038",
+          "industryDescription": "Construction/Real estate/ Buil"
+        },
+        {
+          "industryCode": "0039",
+          "industryDescription": "Realty & Infrastructure"
+        },
+        {
+          "industryCode": "0040",
+          "industryDescription": "Scrap Metal"
+        },
+        {
+          "industryCode": "0041",
+          "industryDescription": "Telecom"
+        },
+        {
+          "industryCode": "0042",
+          "industryDescription": "Term Lending Co"
+        },
+        {
+          "industryCode": "0043",
+          "industryDescription": "Textiles/Garments/ Handl"
+        },
+        {
+          "industryCode": "0044",
+          "industryDescription": "Transportation /Logistics"
+        },
+        {
+          "industryCode": "0045",
+          "industryDescription": "Tour Travel & Tourism"
+        },
+        {
+          "industryCode": "0046",
+          "industryDescription": "Mining"
+        },
+        {
+          "industryCode": "01",
+          "industryDescription": "AIRLINES"
+        },
+        {
+          "industryCode": "0094",
+          "industryDescription": "Charitable - Social- Welfare"
+        },
+        {
+          "industryCode": "0166",
+          "industryDescription": "Banking (Financial Services)"
+        },
+        {
+          "industryCode": "0167",
+          "industryDescription": "Irrigation"
+        },
+        {
+          "industryCode": "0168",
+          "industryDescription": "Money services business"
+        },
+        {
+          "industryCode": "0174",
+          "industryDescription": "Government - Road transportati"
+        },
+        {
+          "industryCode": "0176",
+          "industryDescription": "Government - Rural development"
+        },
+        {
+          "industryCode": "0179",
+          "industryDescription": "Government - Food and public"
+        },
+        {
+          "industryCode": "0184",
+          "industryDescription": "Used car dealer"
+        },
+        {
+          "industryCode": "0186",
+          "industryDescription": "Internet Cafe"
+        },
+        {
+          "industryCode": "0189",
+          "industryDescription": "Movie theatre"
+        },
+        {
+          "industryCode": "0195",
+          "industryDescription": "Waste collection, treatment an"
+        },
+        {
+          "industryCode": "0196",
+          "industryDescription": "Civil engineering"
+        },
+        {
+          "industryCode": "0197",
+          "industryDescription": "Warehousing and support"
+        },
+        {
+          "industryCode": "0198",
+          "industryDescription": "Event Catering"
+        },
+        {
+          "industryCode": "0199",
+          "industryDescription": "Architecture and engineering"
+        },
+        {
+          "industryCode": "0200",
+          "industryDescription": "Veterinary activities"
+        },
+        {
+          "industryCode": "0206",
+          "industryDescription": "Securitisation trust"
+        },
+        {
+          "industryCode": "0169",
+          "industryDescription": "Stock Broker"
+        },
+        {
+          "industryCode": "0171",
+          "industryDescription": "Financial Advisory - Portfolio"
+        },
+        {
+          "industryCode": "0172",
+          "industryDescription": "Gambling"
+        },
+        {
+          "industryCode": "0175",
+          "industryDescription": "Government - Water resources"
+        },
+        {
+          "industryCode": "0177",
+          "industryDescription": "Government - Skill Development"
+        },
+        {
+          "industryCode": "0180",
+          "industryDescription": "Gvernment - Human Resource"
+        },
+        {
+          "industryCode": "0181",
+          "industryDescription": "Government -Housing Developmen"
+        },
+        {
+          "industryCode": "0182",
+          "industryDescription": "Government -Defence"
+        },
+        {
+          "industryCode": "0185",
+          "industryDescription": "Boat/Plane Dealership"
+        },
+        {
+          "industryCode": "0190",
+          "industryDescription": "Law firm"
+        },
+        {
+          "industryCode": "0191",
+          "industryDescription": "Venture Capital Companies"
+        },
+        {
+          "industryCode": "0201",
+          "industryDescription": "Rental and leasing activities"
+        },
+        {
+          "industryCode": "0203",
+          "industryDescription": "Security and investigation act"
+        },
+        {
+          "industryCode": "0205",
+          "industryDescription": "Activities of extraterritorial"
+        },
+        {
+          "industryCode": "0095",
+          "industryDescription": "Activities of Membership organ"
+        },
+        {
+          "industryCode": "0096",
+          "industryDescription": "Animal Husbandry Services"
+        },
+        {
+          "industryCode": "0097",
+          "industryDescription": "Basic metals"
+        },
+        {
+          "industryCode": "0098",
+          "industryDescription": "Coal and Lignite"
+        },
+        {
+          "industryCode": "0099",
+          "industryDescription": "Fabricated metal products (exc"
+        },
+        {
+          "industryCode": "0100",
+          "industryDescription": "Financial Intermediation- Bank"
+        },
+        {
+          "industryCode": "0101",
+          "industryDescription": "Aquaculture"
+        },
+        {
+          "industryCode": "0102",
+          "industryDescription": "Food and Cash Crops (excluding"
+        },
+        {
+          "industryCode": "0103",
+          "industryDescription": "Handicraft"
+        },
+        {
+          "industryCode": "0104",
+          "industryDescription": "Indirect Finance to Agricultur"
+        },
+        {
+          "industryCode": "0105",
+          "industryDescription": "Infrastructure- energy"
+        },
+        {
+          "industryCode": "0106",
+          "industryDescription": "Infrastructure- Social and com"
+        },
+        {
+          "industryCode": "0107",
+          "industryDescription": "Infrastructure- water sanitati"
+        },
+        {
+          "industryCode": "0108",
+          "industryDescription": "Land Transport; Transport via"
+        },
+        {
+          "industryCode": "0109",
+          "industryDescription": "Medical instruments, watches a"
+        },
+        {
+          "industryCode": "0110",
+          "industryDescription": "Metal Ores"
+        },
+        {
+          "industryCode": "0111",
+          "industryDescription": "Miscallenous"
+        },
+        {
+          "industryCode": "0112",
+          "industryDescription": "Motor Vehicles, Trailers and S"
+        },
+        {
+          "industryCode": "0113",
+          "industryDescription": "Office, accounting and computi"
+        },
+        {
+          "industryCode": "0114",
+          "industryDescription": "Other Direct Finance to Agricu"
+        },
+        {
+          "industryCode": "0115",
+          "industryDescription": "Other Mining and Quarrying"
+        },
+        {
+          "industryCode": "0116",
+          "industryDescription": "Other transport equipment"
+        },
+        {
+          "industryCode": "0117",
+          "industryDescription": "Personal loans and Consumer lo"
+        },
+        {
+          "industryCode": "0118",
+          "industryDescription": "Plantation Crops"
+        },
+        {
+          "industryCode": "0119",
+          "industryDescription": "Postal and cable services"
+        },
+        {
+          "industryCode": "0120",
+          "industryDescription": "Public Administration and Defe"
+        },
+        {
+          "industryCode": "0121",
+          "industryDescription": "Reproduction of recorded media"
+        },
+        {
+          "industryCode": "0122",
+          "industryDescription": "Radio, Television and Communic"
+        },
+        {
+          "industryCode": "0123",
+          "industryDescription": "Real Estate Activities"
+        },
+        {
+          "industryCode": "0124",
+          "industryDescription": "Recreational, Cultural and Spo"
+        },
+        {
+          "industryCode": "0125",
+          "industryDescription": "Recycling"
+        },
+        {
+          "industryCode": "0126",
+          "industryDescription": "Renting of Machinery and Equip"
+        },
+        {
+          "industryCode": "0127",
+          "industryDescription": "Research and Development"
+        },
+        {
+          "industryCode": "0128",
+          "industryDescription": "Rubber and plastic products"
+        },
+        {
+          "industryCode": "0129",
+          "industryDescription": "Supporting and auxiliary trans"
+        },
+        {
+          "industryCode": "0130",
+          "industryDescription": "Uranium and Thorium"
+        },
+        {
+          "industryCode": "0131",
+          "industryDescription": "Water Transport"
+        },
+        {
+          "industryCode": "0132",
+          "industryDescription": "Wood and wood products (except"
+        },
+        {
+          "industryCode": "0133",
+          "industryDescription": "Electrical machinery and appar"
+        },
+        {
+          "industryCode": "0134",
+          "industryDescription": "Farming of Animals, silkworm"
+        },
+        {
+          "industryCode": "0135",
+          "industryDescription": "Financial Intermediation- NBFC"
+        },
+        {
+          "industryCode": "0136",
+          "industryDescription": "Forestry, Logging & Related Se"
+        },
+        {
+          "industryCode": "0137",
+          "industryDescription": "Health and Social work"
+        },
+        {
+          "industryCode": "0138",
+          "industryDescription": "Infrastructure- Communication"
+        },
+        {
+          "industryCode": "0139",
+          "industryDescription": "Infrastructure- transport"
+        },
+        {
+          "industryCode": "0140",
+          "industryDescription": "Pension Funding"
+        },
+        {
+          "industryCode": "0142",
+          "industryDescription": "Machinery and equipments"
+        },
+        {
+          "industryCode": "0143",
+          "industryDescription": "Other Business activities"
+        },
+        {
+          "industryCode": "0144",
+          "industryDescription": "Other non metalic mineral prod"
+        },
+        {
+          "industryCode": "0145",
+          "industryDescription": "Activities auxiliary to Financ"
+        },
+        {
+          "industryCode": "0146",
+          "industryDescription": "Beverages-Liquor,wine,fanny an"
+        },
+        {
+          "industryCode": "0147",
+          "industryDescription": "Beverages-Soft drinks"
+        },
+        {
+          "industryCode": "0148",
+          "industryDescription": "Chemical and chemical products"
+        },
+        {
+          "industryCode": "0149",
+          "industryDescription": "Pharma &drugs,soaps"
+        },
+        {
+          "industryCode": "0150",
+          "industryDescription": "Coal products, refined petrole"
+        },
+        {
+          "industryCode": "0151",
+          "industryDescription": "Finacial Intermediation- Other"
+        },
+        {
+          "industryCode": "0152",
+          "industryDescription": "Finacial Intermediation- Other"
+        },
+        {
+          "industryCode": "0153",
+          "industryDescription": "Finacial Intermediation- Co-op"
+        },
+        {
+          "industryCode": "0154",
+          "industryDescription": "Restaurants,canteens"
+        },
+        {
+          "industryCode": "0155",
+          "industryDescription": "Agricultural Finance, Indirect"
+        },
+        {
+          "industryCode": "0156",
+          "industryDescription": "Other financial intermediation"
+        },
+        {
+          "industryCode": "0157",
+          "industryDescription": "Oth Serv actvty- Craftsm, Main"
+        },
+        {
+          "industryCode": "0158",
+          "industryDescription": "Other Service activity-laundry"
+        },
+        {
+          "industryCode": "0159",
+          "industryDescription": "Lending to Construt contractor"
+        },
+        {
+          "industryCode": "0160",
+          "industryDescription": "Other than Infra lending (Gene"
+        },
+        {
+          "industryCode": "0161",
+          "industryDescription": "Retail Trade (excpt Vehicle, D"
+        },
+        {
+          "industryCode": "0162",
+          "industryDescription": "Retail Trade (Sale of Diamonds"
+        },
+        {
+          "industryCode": "0163",
+          "industryDescription": "Wholesale and retail trade -Ve"
+        },
+        {
+          "industryCode": "0165",
+          "industryDescription": "Wholesale Trade and Commission"
+        },
+        {
+          "industryCode": "0141",
+          "industryDescription": "Leather"
+        },
+        {
+          "industryCode": "0170",
+          "industryDescription": "Merchant banking"
+        },
+        {
+          "industryCode": "0173",
+          "industryDescription": "Government - trust/society"
+        },
+        {
+          "industryCode": "0178",
+          "industryDescription": "Government - Social Justice"
+        },
+        {
+          "industryCode": "0183",
+          "industryDescription": "Investment Management/Money Ma"
+        },
+        {
+          "industryCode": "0187",
+          "industryDescription": "Pawn Shops"
+        },
+        {
+          "industryCode": "0188",
+          "industryDescription": "Dot-com Company or internet"
+        },
+        {
+          "industryCode": "0192",
+          "industryDescription": "sports goods , games and toys"
+        },
+        {
+          "industryCode": "0193",
+          "industryDescription": "Electric power generation ,"
+        },
+        {
+          "industryCode": "0194",
+          "industryDescription": "Gas - distribution of gaseous"
+        },
+        {
+          "industryCode": "0202",
+          "industryDescription": "Employment activities"
+        },
+        {
+          "industryCode": "0204",
+          "industryDescription": "Libraries, archives, museums"
+        }
+      ],
+      "businesses": [
+        {
+          "businessType": "Trading",
+          "businessCode": "TR1324"
+        },
+        {
+          "businessType": "Manufacturing",
+          "businessCode": "MF4321"
+        },
+        {
+          "businessType": "Services",
+          "businessCode": "SC7763"
+        }
+      ],
+      "collateral": [
+        {
+          "collateralTypeId": "01",
+          "collateralType": "IMMOVABLE PROPERTIES",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "AGRICULTURAL LAND",
+          "description": "IMMOVABLE PROPERTIES-AGRICULTURAL LAND"
+        },
+        {
+          "collateralTypeId": "01",
+          "collateralType": "IMMOVABLE PROPERTIES",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "COMMERCIAL CUM RESIDNTIAL PLOT",
+          "description": "IMMOVABLE PROPERTIES-COMMERCIAL CUM RESIDENTIAL PLOT"
+        },
+        {
+          "collateralTypeId": "01",
+          "collateralType": "IMMOVABLE PROPERTIES",
+          "collateralSubTypeId": "03",
+          "collateralSubType": "COMMERCIAL PLOT",
+          "description": "IMMOVABLE PROPERTIES-COMMERCIAL PLOT"
+        },
+        {
+          "collateralTypeId": "01",
+          "collateralType": "IMMOVABLE PROPERTIES",
+          "collateralSubTypeId": "04",
+          "collateralSubType": "Commercial Plot",
+          "description": "IMMOVABLE PROPERTIES-Commercial Plot"
+        },
+        {
+          "collateralTypeId": "01",
+          "collateralType": "IMMOVABLE PROPERTIES",
+          "collateralSubTypeId": "05",
+          "collateralSubType": "COMML/RESIDENTIAL BUILDING",
+          "description": "IMMOVABLE PROPERTIES-COMML/RESIDENTIAL BUILDING"
+        },
+        {
+          "collateralTypeId": "01",
+          "collateralType": "IMMOVABLE PROPERTIES",
+          "collateralSubTypeId": "06",
+          "collateralSubType": "FACTORY LAND",
+          "description": "IMMOVABLE PROPERTIES-FACTORY LAND"
+        },
+        {
+          "collateralTypeId": "01",
+          "collateralType": "IMMOVABLE PROPERTIES",
+          "collateralSubTypeId": "07",
+          "collateralSubType": "FACTORY LAND AND BUILDING",
+          "description": "IMMOVABLE PROPERTIES-FACTORY LAND AND BUILDING"
+        },
+        {
+          "collateralTypeId": "01",
+          "collateralType": "IMMOVABLE PROPERTIES",
+          "collateralSubTypeId": "08",
+          "collateralSubType": "RESIDENTIAL BUILDING",
+          "description": "IMMOVABLE PROPERTIES-RESIDENTIAL BUILDING"
+        },
+        {
+          "collateralTypeId": "01",
+          "collateralType": "IMMOVABLE PROPERTIES",
+          "collateralSubTypeId": "09",
+          "collateralSubType": "RESIDENTIAL PLOT",
+          "description": "IMMOVABLE PROPERTIES-RESIDENTIAL PLOT"
+        },
+        {
+          "collateralTypeId": "01",
+          "collateralType": "IMMOVABLE PROPERTIES",
+          "collateralSubTypeId": "10",
+          "collateralSubType": "COMMERCIAL BUILDING",
+          "description": "IMMOVABLE PROPERTIES-COMMERCIAL BUILDING"
+        },
+        {
+          "collateralTypeId": "02",
+          "collateralType": "LEASE HOLD RIGHTS / RETIREMENT BENEFITS",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "LIEN ON PF",
+          "description": "LEASE HOLD RIGHTS / RETIREMENT BENEFITS-LIEN ON PF"
+        },
+        {
+          "collateralTypeId": "03",
+          "collateralType": "STOCK and BOOK DEBTS",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "HYPOTHECATED STOCK",
+          "description": "STOCK and BOOK DEBTS-HYPOTHECATED STOCK"
+        },
+        {
+          "collateralTypeId": "03",
+          "collateralType": "STOCK and BOOK DEBTS",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "BOOK DEBTS",
+          "description": "STOCK and BOOK DEBTS-BOOK DEBTS"
+        },
+        {
+          "collateralTypeId": "03",
+          "collateralType": "STOCK and BOOK DEBTS",
+          "collateralSubTypeId": "03",
+          "collateralSubType": "PLEDGED STOCK",
+          "description": "STOCK and BOOK DEBTS-PLEDGED STOCK"
+        },
+        {
+          "collateralTypeId": "03",
+          "collateralType": "STOCK and BOOK DEBTS",
+          "collateralSubTypeId": "04",
+          "collateralSubType": "BOOK DEBTS",
+          "description": "STOCK and BOOK DEBTS-BOOK DEBTS"
+        },
+        {
+          "collateralTypeId": "03",
+          "collateralType": "STOCK and BOOK DEBTS",
+          "collateralSubTypeId": "05",
+          "collateralSubType": "AGRICULTURAL IMPLEMENT",
+          "description": "STOCK and BOOK DEBTS-AGRICULTURAL IMPLEMENT"
+        },
+        {
+          "collateralTypeId": "03",
+          "collateralType": "STOCK and BOOK DEBTS",
+          "collateralSubTypeId": "06",
+          "collateralSubType": "LIVE STOCK",
+          "description": "STOCK and BOOK DEBTS-LIVE STOCK"
+        },
+        {
+          "collateralTypeId": "04",
+          "collateralType": "BILLS",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "CLEAN BILLS",
+          "description": "BILLS-CLEAN BILLS"
+        },
+        {
+          "collateralTypeId": "04",
+          "collateralType": "BILLS",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "DA BILLS",
+          "description": "BILLS-DA BILLS"
+        },
+        {
+          "collateralTypeId": "04",
+          "collateralType": "BILLS",
+          "collateralSubTypeId": "03",
+          "collateralSubType": "DP BILLS",
+          "description": "BILLS-DP BILLS"
+        },
+        {
+          "collateralTypeId": "04",
+          "collateralType": "BILLS",
+          "collateralSubTypeId": "04",
+          "collateralSubType": "SUPPLY BILLS",
+          "description": "BILLS-SUPPLY BILLS"
+        },
+        {
+          "collateralTypeId": "04",
+          "collateralType": "BILLS",
+          "collateralSubTypeId": "05",
+          "collateralSubType": "SECURED BILLS - MLR,MR,BL",
+          "description": "BILLS-SECURED BILLS - MLR,MR,BL"
+        },
+        {
+          "collateralTypeId": "04",
+          "collateralType": "BILLS",
+          "collateralSubTypeId": "06",
+          "collateralSubType": "OTHER BILLS - CHEQUES",
+          "description": "BILLS-OTHER BILLS - CHEQUES"
+        },
+        {
+          "collateralTypeId": "04",
+          "collateralType": "BILLS",
+          "collateralSubTypeId": "07",
+          "collateralSubType": "OTHER BILLS - ACCEPTED HUNDIES",
+          "description": "BILLS-OTHER BILLS - ACCEPTED HUNDIES"
+        },
+        {
+          "collateralTypeId": "05",
+          "collateralType": "GOLD",
+          "collateralSubTypeId": "08",
+          "collateralSubType": "GOLD ORNAMENTS",
+          "description": "GOLD-GOLD ORNAMENTS"
+        },
+        {
+          "collateralTypeId": "05",
+          "collateralType": "GOLD",
+          "collateralSubTypeId": "09",
+          "collateralSubType": "GOLD BULLION",
+          "description": "GOLD-GOLD BULLION"
+        },
+        {
+          "collateralTypeId": "05",
+          "collateralType": "GOLD",
+          "collateralSubTypeId": "10",
+          "collateralSubType": "GOLD BOND",
+          "description": "GOLD-GOLD BOND"
+        },
+        {
+          "collateralTypeId": "08",
+          "collateralType": "VEHICLES",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "PLANT AND MACHINERY",
+          "description": "VEHICLES-PLANT AND MACHINERY"
+        },
+        {
+          "collateralTypeId": "08",
+          "collateralType": "VEHICLES",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "MACHINERY",
+          "description": "VEHICLES-MACHINERY"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "BUS",
+          "description": "CONSUMER DURABLES-BUS"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "MINI BUS",
+          "description": "CONSUMER DURABLES-MINI BUS"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "03",
+          "collateralSubType": "LIGHT COMMERCIAL VEHICLES",
+          "description": "CONSUMER DURABLES-LIGHT COMMERCIAL VEHICLES"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "04",
+          "collateralSubType": "HEAVY COMMERCIAL VEHICLES",
+          "description": "CONSUMER DURABLES-HEAVY COMMERCIAL VEHICLES"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "05",
+          "collateralSubType": "EARTH COMMERCIAL VEHICLES",
+          "description": "CONSUMER DURABLES-EARTH COMMERCIAL VEHICLES"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "06",
+          "collateralSubType": "OTHER HEAVY VEHICLES",
+          "description": "CONSUMER DURABLES-OTHER HEAVY VEHICLES"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "07",
+          "collateralSubType": "CAR",
+          "description": "CONSUMER DURABLES-CAR"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "08",
+          "collateralSubType": "TAXI",
+          "description": "CONSUMER DURABLES-TAXI"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "09",
+          "collateralSubType": "AUTO RIKSHAW",
+          "description": "CONSUMER DURABLES-AUTO RIKSHAW"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "10",
+          "collateralSubType": "MOTORBIKE",
+          "description": "CONSUMER DURABLES-MOTORBIKE"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "11",
+          "collateralSubType": "SCOOTER",
+          "description": "CONSUMER DURABLES-SCOOTER"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "12",
+          "collateralSubType": "MOPED",
+          "description": "CONSUMER DURABLES-MOPED"
+        },
+        {
+          "collateralTypeId": "09",
+          "collateralType": "CONSUMER DURABLES",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "SMALL COMMERCIAL VEHICLE",
+          "description": "CONSUMER DURABLES-SMALL COMMERCIAL VEHICLE"
+        },
+        {
+          "collateralTypeId": "11",
+          "collateralType": "LIVESTOCK",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "COMPUTER",
+          "description": "LIVESTOCK-COMPUTER"
+        },
+        {
+          "collateralTypeId": "11",
+          "collateralType": "LIVESTOCK",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "FURNITURE",
+          "description": "LIVESTOCK-FURNITURE"
+        },
+        {
+          "collateralTypeId": "11",
+          "collateralType": "LIVESTOCK",
+          "collateralSubTypeId": "03",
+          "collateralSubType": "REFRIGERATOR",
+          "description": "LIVESTOCK-REFRIGERATOR"
+        },
+        {
+          "collateralTypeId": "11",
+          "collateralType": "LIVESTOCK",
+          "collateralSubTypeId": "04",
+          "collateralSubType": "TELEVISION",
+          "description": "LIVESTOCK-TELEVISION"
+        },
+        {
+          "collateralTypeId": "11",
+          "collateralType": "LIVESTOCK",
+          "collateralSubTypeId": "05",
+          "collateralSubType": "WASHING MACHINE",
+          "description": "LIVESTOCK-WASHING MACHINE"
+        },
+        {
+          "collateralTypeId": "11",
+          "collateralType": "LIVESTOCK",
+          "collateralSubTypeId": "06",
+          "collateralSubType": "AUDIO/VIDEO SYSTEM",
+          "description": "LIVESTOCK-AUDIO/VIDEO SYSTEM"
+        },
+        {
+          "collateralTypeId": "11",
+          "collateralType": "LIVESTOCK",
+          "collateralSubTypeId": "07",
+          "collateralSubType": "OTHER",
+          "description": "LIVESTOCK-OTHER"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "BEE KEEPING",
+          "description": "INSURANCE POLICIES-BEE KEEPING"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "Duck Rearing",
+          "description": "INSURANCE POLICIES-Duck Rearing"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "03",
+          "collateralSubType": "Fishery",
+          "description": "INSURANCE POLICIES-Fishery"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "04",
+          "collateralSubType": "Goat",
+          "description": "INSURANCE POLICIES-Goat"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "05",
+          "collateralSubType": "Milch Animals",
+          "description": "INSURANCE POLICIES-Milch Animals"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "06",
+          "collateralSubType": "Pig",
+          "description": "INSURANCE POLICIES-Pig"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "07",
+          "collateralSubType": "Plough Animals",
+          "description": "INSURANCE POLICIES-Plough Animals"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "08",
+          "collateralSubType": "Poultry",
+          "description": "INSURANCE POLICIES-Poultry"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "09",
+          "collateralSubType": "Rabbit Rearing",
+          "description": "INSURANCE POLICIES-Rabbit Rearing"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "10",
+          "collateralSubType": "Sericulture",
+          "description": "INSURANCE POLICIES-Sericulture"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "11",
+          "collateralSubType": "Sheep/Goat/Pig",
+          "description": "INSURANCE POLICIES-Sheep/Goat/Pig"
+        },
+        {
+          "collateralTypeId": "13",
+          "collateralType": "INSURANCE POLICIES",
+          "collateralSubTypeId": "12",
+          "collateralSubType": "Others",
+          "description": "INSURANCE POLICIES-Others"
+        },
+        {
+          "collateralTypeId": "14",
+          "collateralType": "SHARES AND INVESTMENTS",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "IDFC Bank deposits (Same Customer)",
+          "description": "SHARES AND INVESTMENTS-IDFC Bank deposits (Same Customer)"
+        },
+        {
+          "collateralTypeId": "14",
+          "collateralType": "SHARES AND INVESTMENTS",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "IDFC Bank deposits (Different Customer/Third-party)",
+          "description": "SHARES AND INVESTMENTS-IDFC Bank deposits (Different Customer/Third-party)"
+        },
+        {
+          "collateralTypeId": "15",
+          "collateralType": "PAPER / INSURANCE BASED SECURITIES",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "GENERAL INSURANCE POLICY",
+          "description": "PAPER / INSURANCE BASED SECURITIES-GENERAL INSURANCE POLICY"
+        },
+        {
+          "collateralTypeId": "15",
+          "collateralType": "PAPER / INSURANCE BASED SECURITIES",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "LIFE INSURANCE POLICY",
+          "description": "PAPER / INSURANCE BASED SECURITIES-LIFE INSURANCE POLICY"
+        },
+        {
+          "collateralTypeId": "15",
+          "collateralType": "PAPER / INSURANCE BASED SECURITIES",
+          "collateralSubTypeId": "03",
+          "collateralSubType": "POSTAL LIFE INSURANCE",
+          "description": "PAPER / INSURANCE BASED SECURITIES-POSTAL LIFE INSURANCE"
+        },
+        {
+          "collateralTypeId": "16",
+          "collateralType": "GUARANTEES",
+          "collateralSubTypeId": "04",
+          "collateralSubType": "MUTUAL FUND INVESTMENTS",
+          "description": "GUARANTEES-MUTUAL FUND INVESTMENTS"
+        },
+        {
+          "collateralTypeId": "16",
+          "collateralType": "GUARANTEES",
+          "collateralSubTypeId": "05",
+          "collateralSubType": "OTHER INVESTMENTS",
+          "description": "GUARANTEES-OTHER INVESTMENTS"
+        },
+        {
+          "collateralTypeId": "16",
+          "collateralType": "GUARANTEES",
+          "collateralSubTypeId": "06",
+          "collateralSubType": "SHARES",
+          "description": "GUARANTEES-SHARES"
+        },
+        {
+          "collateralTypeId": "16",
+          "collateralType": "GUARANTEES",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "BONDS AND DEBENTURES",
+          "description": "GUARANTEES-BONDS AND DEBENTURES"
+        },
+        {
+          "collateralTypeId": "17",
+          "collateralType": "INTANGIBLE SECURITIES",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "NSC - VIII ISSUE",
+          "description": "INTANGIBLE SECURITIES-NSC - VIII ISSUE"
+        },
+        {
+          "collateralTypeId": "17",
+          "collateralType": "INTANGIBLE SECURITIES",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "India Millenium Bond",
+          "description": "INTANGIBLE SECURITIES-India Millenium Bond"
+        },
+        {
+          "collateralTypeId": "17",
+          "collateralType": "INTANGIBLE SECURITIES",
+          "collateralSubTypeId": "03",
+          "collateralSubType": "INDIRA VIKAS PATRA",
+          "description": "INTANGIBLE SECURITIES-INDIRA VIKAS PATRA"
+        },
+        {
+          "collateralTypeId": "17",
+          "collateralType": "INTANGIBLE SECURITIES",
+          "collateralSubTypeId": "04",
+          "collateralSubType": "KISAN VIKAS PATRA",
+          "description": "INTANGIBLE SECURITIES-KISAN VIKAS PATRA"
+        },
+        {
+          "collateralTypeId": "17",
+          "collateralType": "INTANGIBLE SECURITIES",
+          "collateralSubTypeId": "05",
+          "collateralSubType": "Paper/Insuranc",
+          "description": "INTANGIBLE SECURITIES-Paper/Insuranc"
+        },
+        {
+          "collateralTypeId": "17",
+          "collateralType": "INTANGIBLE SECURITIES",
+          "collateralSubTypeId": "06",
+          "collateralSubType": "RBI Relief Bonds",
+          "description": "INTANGIBLE SECURITIES-RBI Relief Bonds"
+        },
+        {
+          "collateralTypeId": "17",
+          "collateralType": "INTANGIBLE SECURITIES",
+          "collateralSubTypeId": "07",
+          "collateralSubType": "Resurgent India Bond",
+          "description": "INTANGIBLE SECURITIES-Resurgent India Bond"
+        },
+        {
+          "collateralTypeId": "17",
+          "collateralType": "INTANGIBLE SECURITIES",
+          "collateralSubTypeId": "08",
+          "collateralSubType": "OTHER GOVT SECURITIES",
+          "description": "INTANGIBLE SECURITIES-OTHER GOVT SECURITIES"
+        },
+        {
+          "collateralTypeId": "17",
+          "collateralType": "INTANGIBLE SECURITIES",
+          "collateralSubTypeId": "09",
+          "collateralSubType": "Paper based securities-PF bals",
+          "description": "INTANGIBLE SECURITIES-Paper based securities-PF bals"
+        },
+        {
+          "collateralTypeId": "17",
+          "collateralType": "INTANGIBLE SECURITIES",
+          "collateralSubTypeId": "10",
+          "collateralSubType": "MAGNUM MF",
+          "description": "INTANGIBLE SECURITIES-MAGNUM MF"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "CREDIT GUARANTEE CORPORATION",
+          "description": "GOODWILL / PATENT-CREDIT GUARANTEE CORPORATION"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "CENTRAL GOVERNMENT GUARANTEE",
+          "description": "GOODWILL / PATENT-CENTRAL GOVERNMENT GUARANTEE"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "03",
+          "collateralSubType": "STATE GOVERNMENT GUARANTEE",
+          "description": "GOODWILL / PATENT-STATE GOVERNMENT GUARANTEE"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "04",
+          "collateralSubType": "GROUP GUARANTEE",
+          "description": "GOODWILL / PATENT-GROUP GUARANTEE"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "05",
+          "collateralSubType": "PERSONAL GUARANTEE",
+          "description": "GOODWILL / PATENT-PERSONAL GUARANTEE"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "06",
+          "collateralSubType": "CORPORATE GUARANTEE",
+          "description": "GOODWILL / PATENT-CORPORATE GUARANTEE"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "07",
+          "collateralSubType": "BANK GUARANTEE",
+          "description": "GOODWILL / PATENT-BANK GUARANTEE"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "08",
+          "collateralSubType": "COVER AVAILABLE FROM ECGC",
+          "description": "GOODWILL / PATENT-COVER AVAILABLE FROM ECGC"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "09",
+          "collateralSubType": "COVER AVAILABLE FROM CGTFI",
+          "description": "GOODWILL / PATENT-COVER AVAILABLE FROM CGTFI"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "11",
+          "collateralSubType": "LETTER OF COMFORT",
+          "description": "GOODWILL / PATENT-LETTER OF COMFORT"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "SBLC",
+          "description": "GOODWILL / PATENT-SBLC"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "NON RESIDENT-CORPORATE GUARANTEE",
+          "description": "GOODWILL / PATENT-NON RESIDENT-CORPORATE GUARANTEE"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "03",
+          "collateralSubType": "NON RESIDENT- PERSONAL GUARANTEE",
+          "description": "GOODWILL / PATENT-NON RESIDENT- PERSONAL GUARANTEE"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "04",
+          "collateralSubType": "NON RESIDENT- BANK GUARANTEE",
+          "description": "GOODWILL / PATENT-NON RESIDENT- BANK GUARANTEE"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "05",
+          "collateralSubType": "NON RESIDENT-LETTER OF COMFORT",
+          "description": "GOODWILL / PATENT-NON RESIDENT-LETTER OF COMFORT"
+        },
+        {
+          "collateralTypeId": "18",
+          "collateralType": "GOODWILL / PATENT",
+          "collateralSubTypeId": "06",
+          "collateralSubType": "NON RESIDENT-SBLC",
+          "description": "GOODWILL / PATENT-NON RESIDENT-SBLC"
+        },
+        {
+          "collateralTypeId": "19",
+          "collateralType": "CURRENT ASSETS",
+          "collateralSubTypeId": "01",
+          "collateralSubType": "BRAND EQUITY",
+          "description": "CURRENT ASSETS-BRAND EQUITY"
+        },
+        {
+          "collateralTypeId": "19",
+          "collateralType": "CURRENT ASSETS",
+          "collateralSubTypeId": "02",
+          "collateralSubType": "PATENT",
+          "description": "CURRENT ASSETS-PATENT"
+        },
+        {
+          "collateralTypeId": "19",
+          "collateralType": "CURRENT ASSETS",
+          "collateralSubTypeId": "03",
+          "collateralSubType": "LICENSE",
+          "description": "CURRENT ASSETS-LICENSE"
+        },
+        {
+          "collateralTypeId": "19",
+          "collateralType": "CURRENT ASSETS",
+          "collateralSubTypeId": "04",
+          "collateralSubType": "COPYRIGHTS",
+          "description": "CURRENT ASSETS-COPYRIGHTS"
+        },
+        {
+          "collateralTypeId": "19",
+          "collateralType": "CURRENT ASSETS",
+          "collateralSubTypeId": "05",
+          "collateralSubType": "OTHER INTANGIBLE SECURITIES",
+          "description": "CURRENT ASSETS-OTHER INTANGIBLE SECURITIES"
+        }
+      ]
+    }
+  }

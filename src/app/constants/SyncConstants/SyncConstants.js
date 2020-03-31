@@ -1,0 +1,6 @@
+export const MYCASE_ID = ""
+export const NEW_CASE_FROM_SERVER = "NewCaseFromServer"
+export const NEW_CASE_FROM_LOCAL = "NewCaseFromLocal"
+export const UPDATE_CASE_FROM_SERVER = "UpdateCaseFromServer"
+export const UPDATE_CASE_FROM_LOCAL = "UdpateCaseFromLocal"
+export const INVALID_CASE = "InvalidCase"
