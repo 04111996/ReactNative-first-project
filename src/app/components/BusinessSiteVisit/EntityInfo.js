@@ -190,7 +190,7 @@ export default class EntityInfo extends Component {
                     value={this.state.customerName}
                       onValueChanged={text =>  
                         this.setState({
-                          customerName: text,
+                          customerName: text,  
                         })
                       }
                       returnKeyType={'next'}

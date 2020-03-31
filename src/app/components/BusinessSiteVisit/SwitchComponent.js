@@ -11,8 +11,8 @@ export default class SwitchComponent extends React.Component {
       //onValueChange of the switch this function will be called
       this.setState({switchValue: value})
       //state changes according to switch
-      //which will result in re-render the text
-   }
+      //which will result in re-render th  e text
+   }  
   render() {  
     return (
       <View style={styles.container}>

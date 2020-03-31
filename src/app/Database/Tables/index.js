@@ -11,4 +11,4 @@ import {BusinessSiteVisitTables} from "./BusinessSiteVisitTables"
 // import {KeyDecisionTables} from "./KeyDecisionTables"
 
 export { caseTables, kycTables, bankStatementsTables, programsTables ,financialFiguresTables,referenceTables, qcaTables, documentTables,BusinessSiteVisitTables };
-
+  

@@ -9,7 +9,7 @@ export const BusinessSiteVisitTables  = tx => {
         "isDataSubmittedToServer boolean," +   
         "caseUniqueId varchar(255),"+
         "sfdcId varchar(255),"+ 
-        "loanNumber varchar(255),"+
+        "loanNumber varchar(255),"+   
         "sourceOfLead varchar(255),"+
         "customerName varchar(255),"+
         "companyNameAbbreviated varchar(255),"+

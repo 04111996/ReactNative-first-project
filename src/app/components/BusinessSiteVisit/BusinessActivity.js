@@ -393,7 +393,7 @@ export default class BusinessActivity extends Component {
                     onValueChange={(itemValue, itemPosition) =>  
                         this.setState({language: itemValue, choosenIndex: itemPosition})}
                  
-                  >
+                   >
                     <Picker.Item label="High" value="High" />
                     <Picker.Item label="Low" value="lLow" />
                     <Picker.Item label="Poor" value="Poor" />

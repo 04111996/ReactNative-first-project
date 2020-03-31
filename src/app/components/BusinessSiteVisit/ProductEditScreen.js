@@ -12,7 +12,7 @@ export default class ProductEditScreen extends Component {
   
   constructor() {
     super();
-    this.state = {
+    this.state = {  
       prodId: '',
       prodName: '',
       prodDesc: '',

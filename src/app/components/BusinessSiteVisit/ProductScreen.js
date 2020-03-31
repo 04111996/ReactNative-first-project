@@ -13,7 +13,7 @@ const db = new Database1();
       title: 'Product List',
       headerRight: (
         <Button
-         
+           
           icon={{ name: 'add-circle' }}
           onPress={() => { 
             navigation.navigate('AddProduct', {

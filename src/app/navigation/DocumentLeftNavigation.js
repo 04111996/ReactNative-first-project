@@ -3,7 +3,7 @@ import React from 'react';
 import { createAppContainer } from 'react-navigation';
 import {
   Animated,  
-  Easing,
+  Easing,  
   Platform
 } from 'react-native'
 import { createDocumentSidebarNavigator } from '../tabs';

@@ -12,7 +12,7 @@ export default class ProductAddScreen extends Component {
   constructor() {   
     super();
     this.state = {
-      prodId: '',
+      prodId: '',  
       prodName: '',
       prodDesc: '',
       prodImage: '',

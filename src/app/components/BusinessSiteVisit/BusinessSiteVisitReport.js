@@ -52,9 +52,11 @@ export default class BusinessSiteVisitReport extends Component {
           <View style={{ paddingLeft: 40 , paddingBottom:5}}>
           <AddressVerification />
           </View>        
+
           <View style={{ paddingLeft: 40, paddingBottom:5}}>
           <BusinessActivity />
           </View>
+          
           <View style={{ paddingLeft: 40, paddingBottom:5}}>
           <KeyDecisionmakers />
           </View>

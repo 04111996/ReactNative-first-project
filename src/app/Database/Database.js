@@ -10,7 +10,7 @@ const database_size = 200000;
 let dbconnection;
 export default class Database {
        
-
+  
     initDB() {
         let db;
         return new Promise((resolve) => {

@@ -13,7 +13,7 @@ import {
   TouchableOpacity,
   ActivityIndicator,Picker
 } from 'react-native';
-import NetworkStatusToast from '../NetworkStatusToast';
+import NetworkStatusToast from '../NetworkStatusToast';  
 import styles from './BusinessSiteVisitReportStyle';
 import IconCalendar from '../../assets/images/icon_calendar.svg';
 import {CHAR_LIMIT_FOR_NAME_FIELD } from '../../constants/AddCase/AddCaseConstants';

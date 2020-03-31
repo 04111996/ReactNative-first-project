@@ -17,7 +17,7 @@ import  ProductEditScreen  from "./ProductEditScreen";
 export { ProductEditScreen};
 import  ProductDetailsScreen  from "./ProductDetailsScreen";
 export { ProductDetailsScreen};
-import  ProductScreen  from "./ProductScreen";
+import  ProductScreen  from "./ProductScreen";  
 export { ProductScreen};
 import  SwitchComponent  from "./SwitchComponent";
 export { SwitchComponent};

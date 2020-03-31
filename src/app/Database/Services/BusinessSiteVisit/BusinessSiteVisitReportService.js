@@ -7,7 +7,7 @@ export default class BusinessSiteVisitReportService {
         return new Promise((resolve, reject) => {
           if (db) {
             console.log('Closing DB');
-            db.close()
+            db.close()  
               .then(status => {  
                 console.log('Database CLOSED');
                 resolve(status)

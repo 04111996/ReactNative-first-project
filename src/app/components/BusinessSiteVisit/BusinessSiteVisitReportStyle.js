@@ -193,7 +193,7 @@ export default StyleSheet.create({
      fontFamily: 'Helvetica',
     fontSize: 14,
   },
-  calendarLine: {
+  calendarLine: {  
     borderBottomColor: Colors.darkGray,
     borderBottomWidth: 1,
     textAlign: 'right',
