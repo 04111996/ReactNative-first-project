@@ -387,7 +387,7 @@ export default class BusinessActivity extends Component {
                       fontFamily: 'Helvetica',
                       fontWeight: 'bold',
                       color: Colors.text,
-                      marginLeft: -8
+                      marginLeft: -8  
                     }}
                     selectedValue={this.state.language}  
                     onValueChange={(itemValue, itemPosition) =>  

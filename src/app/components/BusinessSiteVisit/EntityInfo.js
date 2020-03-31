@@ -188,7 +188,7 @@ export default class EntityInfo extends Component {
                     fontSize: 14,
                     fontFamily: 'Helvetica',}}  
                     value={this.state.customerName}
-                      onValueChanged={text =>
+                      onValueChanged={text =>  
                         this.setState({
                           customerName: text,
                         })

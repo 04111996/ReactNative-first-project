@@ -9,7 +9,7 @@ const db = new Database1();
 
  class ProductScreen extends Component {
   static navigationOptions = ({ navigation }) => {
-    return {
+    return {  
       title: 'Product List',
       headerRight: (
         <Button

@@ -12,7 +12,7 @@ export default class ProductDetailsScreen extends Component {
 
   constructor() {
     super();
-    this.state = {
+    this.state = {  
       isLoading: true,
       product: {},
       id: '',

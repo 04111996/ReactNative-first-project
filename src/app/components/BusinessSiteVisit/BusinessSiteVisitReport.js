@@ -14,7 +14,7 @@ import {
   ActivityIndicator
 } from 'react-native';
 import NetworkStatusToast from '../NetworkStatusToast';
-import styles from './BusinessSiteVisitReportStyle';
+import styles from './BusinessSiteVisitReportStyle';  
 import EntityInfo from '../../components/BusinessSiteVisit/EntityInfo';
 import AddressVerification from '../../components/BusinessSiteVisit/AddressVerification'
 // import ProductAddScreen from '../../components/BusinessSiteVisit/ProductAddScreen';

@@ -9,7 +9,7 @@ export default class ProductAddScreen extends Component {
   static navigationOptions = {
     title: 'Add Product',
   };
-  constructor() {
+  constructor() {   
     super();
     this.state = {
       prodId: '',

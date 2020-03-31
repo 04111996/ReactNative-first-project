@@ -13,7 +13,7 @@ export default class SwitchComponent extends React.Component {
       //state changes according to switch
       //which will result in re-render the text
    }
-  render() {
+  render() {  
     return (
       <View style={styles.container}>
         {/*Text to show the text according to switch condition*/}

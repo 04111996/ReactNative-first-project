@@ -6,7 +6,7 @@ import { qcaTables } from "./qcaTables";
 import {financialFiguresTables} from "./financialFiguresTables"
 import { documentTables } from "./documentTables"
 import { from } from "rxjs";
-import {referenceTables} from "./ReferencesTables"
+import {referenceTables} from "./ReferencesTables"  
 import {BusinessSiteVisitTables} from "./BusinessSiteVisitTables"
 // import {KeyDecisionTables} from "./KeyDecisionTables"
 

@@ -189,7 +189,7 @@ export default StyleSheet.create({
     borderColor: Colors.text,
   },
   radioLabel: {
-    color: Colors.text,
+    color: Colors.text,  
      fontFamily: 'Helvetica',
     fontSize: 14,
   },

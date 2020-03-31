@@ -6,7 +6,7 @@ export const BusinessSiteVisitTables  = tx => {
         "lastModifiedTime timestamp",+
         "token varchar(255)," +
         "isModified boolean," +
-        "isDataSubmittedToServer boolean," +
+        "isDataSubmittedToServer boolean," +   
         "caseUniqueId varchar(255),"+
         "sfdcId varchar(255),"+ 
         "loanNumber varchar(255),"+

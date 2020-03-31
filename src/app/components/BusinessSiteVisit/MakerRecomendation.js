@@ -310,7 +310,7 @@ export default class MakerRecomendation extends Component {
       <Text style={{paddingTop:10}}>Office is rented/PG</Text>
       </View>
       <View style={{flexDirection:'row'}}>
-            <Checkbox
+            <Checkbox  
            
         status={checked ? 'checked' : 'unchecked'}
         onPress={() => { this.setState({ checked: !checked }); }}

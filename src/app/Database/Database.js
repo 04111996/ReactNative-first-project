@@ -9,7 +9,7 @@ const database_displayname = "SQLite React Offline Database";
 const database_size = 200000;
 let dbconnection;
 export default class Database {
-    
+       
 
     initDB() {
         let db;

@@ -9,7 +9,7 @@ export default class ProductEditScreen extends Component {
   static navigationOptions = {
     title: 'Edit Product',
   };
-
+  
   constructor() {
     super();
     this.state = {

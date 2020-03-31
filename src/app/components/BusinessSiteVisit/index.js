@@ -12,7 +12,7 @@ import  MakerRecomendation  from "./MakerRecomendation";
 export { MakerRecomendation};
 import  ProductAddScreen  from "./ProductAddScreen";
 export { ProductAddScreen};
-
+  
 import  ProductEditScreen  from "./ProductEditScreen";
 export { ProductEditScreen};
 import  ProductDetailsScreen  from "./ProductDetailsScreen";

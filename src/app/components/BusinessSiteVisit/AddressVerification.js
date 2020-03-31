@@ -586,7 +586,7 @@ export default class AddressVerification extends Component {
                     <Picker.Item label="No" value="No" />
                   </Picker>
                   <View
-                    style={{
+                    style={{    
                       backgroundColor: '#ffffff',
                       // opacity: 2,
                       position: "absolute",
